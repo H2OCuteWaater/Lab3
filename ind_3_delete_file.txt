@@ -1,0 +1,3 @@
+echo off 
+del Milovanov /S /Q 
+pause

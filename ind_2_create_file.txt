@@ -1,0 +1,6 @@
+echo off 
+cd Milovanov 
+echo > 29121999.txt 
+cd Dmitrievich  
+echo > 28.txt 
+pause

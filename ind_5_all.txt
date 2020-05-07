@@ -1,0 +1,28 @@
+echo off 
+rem create catalogs
+md Milovanov  
+cd Milovanov 
+md Egor 
+md Dmitrievich
+pause
+
+rem create files
+rem cd Milovanov 
+echo > 29121999.txt 
+cd Dmitrievich  
+echo > 28.txt 
+pause
+ 
+rem delete files
+cd ..
+cd ..
+del Milovanov /S /Q 
+pause
+
+rem delete catalogs
+cd Milovanov 
+rd Egor
+rd Dmitrievich 
+cd ..
+rd Milovanov 
+pause

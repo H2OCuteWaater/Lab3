@@ -1,0 +1,6 @@
+echo off 
+md Milovanov  
+cd Milovanov 
+md Egor 
+md Dmitrievich
+pause
